@@ -56,11 +56,11 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 
 1. Install the `clang-format` plugin using your preferred plugin manager (e.g., `vim-plug`):
    ```vim
-   Plug 'sbdchd/neoformat'
+   Plug ("sbdchd/neoformat")
    ```
 2. Add the following configuration to your `init.vim` or `init.lua`:
    ```vim
-   autocmd FileType c,cpp setlocal formatprg=clang-format
+   vim.cmd("autocmd FileType c,cpp setlocal formatprg=clang-format")
    ```
 3. You can format your code by running `:Neoformat`.
 
