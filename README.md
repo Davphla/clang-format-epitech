@@ -25,8 +25,9 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 2. Ensure you have `clang-format` installed. You can install it via your package manager:
    - **Ubuntu**: `sudo apt install clang-format`
    - **macOS**: `brew install clang-format`
+   - **Arch**: `sudo pacman -S clang`
    - **Windows**: Download from the [LLVM releases page](https://releases.llvm.org/download.html).
-   - 
+  
 
 ## Usage
 
