@@ -16,32 +16,30 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 
 ## Installation
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/Davphla/clang-format-epitech.git
-   cd ./clang-format-epitech
-   ```
-
-2. Ensure you have `clang-format` installed. You can install it via your package manager:
+1. Ensure you have `clang-format` installed. You can install it via your package manager:
    - **Ubuntu**: `sudo apt install clang-format`
    - **macOS**: `brew install clang-format`
    - **Arch**: `sudo pacman -S clang`
-   - **Windows**: Download from the [LLVM releases page](https://releases.llvm.org/download.html).
-  
+   - **Other**: Download from the [LLVM releases page](https://releases.llvm.org/download.html).
 
+2. Copy the .clang-format file to your project root for consistency with your teammates, or to your home directory (~) for global use.
+
+```bash
+   curl -o ~/.clang-format https://raw.githubusercontent.com/Davphla/clang-format-epitech/refs/heads/main/.clang-format
+```
 ## Usage
 
 ### Visual Studio Code (VSCode)
 
-1. Install the **Clang-Format** extension from the Extensions Marketplace.
-2. Open your workspace settings (`.vscode/settings.json`) and add the following configuration:
+1. Install the **C/C++** extension from the Extensions Marketplace.
+2. Open your workspace settings and change (if needed) the following configuration:
    ```json
    {
        "C_Cpp.clang_format_style": "file"
    }
    ```
-3. Now, you can format your code using the command palette (`Ctrl + Shift + P`) and typing `Format Document`.
-4. You can also use `Ctrl + Shift + I` to format the current document. 
+3. Now, you can use `Ctrl + Shift + I` to format the current document. 
+3. Or you can also format your code using the command palette (`Ctrl + Shift + P`) and typing `Format Document`.
 
 ### Emacs
 
