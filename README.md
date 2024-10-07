@@ -25,8 +25,9 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 2. Ensure you have `clang-format` installed. You can install it via your package manager:
    - **Ubuntu**: `sudo apt install clang-format`
    - **macOS**: `brew install clang-format`
+   - **Arch**: `sudo pacman -S clang`
    - **Windows**: Download from the [LLVM releases page](https://releases.llvm.org/download.html).
-   - 
+  
 
 ## Usage
 
@@ -56,11 +57,11 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 
 1. Install the `clang-format` plugin using your preferred plugin manager (e.g., `vim-plug`):
    ```vim
-   Plug 'sbdchd/neoformat'
+   Plug ("sbdchd/neoformat")
    ```
 2. Add the following configuration to your `init.vim` or `init.lua`:
    ```vim
-   autocmd FileType c,cpp setlocal formatprg=clang-format
+   vim.cmd("autocmd FileType c,cpp setlocal formatprg=clang-format")
    ```
 3. You can format your code by running `:Neoformat`.
 
