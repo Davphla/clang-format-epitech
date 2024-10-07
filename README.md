@@ -32,7 +32,7 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 ### Visual Studio Code (VSCode)
 
 1. Install the **C/C++** extension from the Extensions Marketplace.
-2. Open your workspace settings and change (if needed) the following configuration:
+2. Open your workspace settings and change (if needed) the following configuration in settings:
    ```json
    {
        "C_Cpp.clang_format_style": "file"
