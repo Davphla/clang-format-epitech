@@ -37,7 +37,7 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 2. Open your workspace settings (`.vscode/settings.json`) and add the following configuration:
    ```json
    {
-       "C_Cpp.clang_format_style": ".clang-format"
+       "C_Cpp.clang_format_style": "file"
    }
    ```
 3. Now, you can format your code using the command palette (`Ctrl + Shift + P`) and typing `Format Document`.
