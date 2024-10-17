@@ -73,7 +73,7 @@ Replace `<filename>` with the name of the file you want to format. The `-i` flag
 
 ## Customizing the Configuration
 
-You can customize the `.clang-format` file to suit your coding style preferences. Refer to the [Clang-Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) for a comprehensive list of available options.
+You can customize the `.clang-format` file to suit your coding style preferences. Refer to the [Clang-Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) for a comprehensive list of available options. 
 
 ## Contributing
 
