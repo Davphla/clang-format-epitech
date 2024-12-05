@@ -1,7 +1,7 @@
 # Clang-Format Configuration
 
 This repository contains a `.clang-format` configuration file for formatting C, C++, and other related source code files. This file can be used with various editors and IDEs to ensure consistent code style across your projects.
-
+ 
 ## Table of Contents
 
 - [Installation](#installation)
