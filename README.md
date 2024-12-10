@@ -25,7 +25,7 @@ This repository contains a `.clang-format` configuration file for formatting C, 
 2. Copy the .clang-format file to your project root for consistency with your teammates, or to your home directory (~) for global use.
 
 ```bash
-   curl -o ~/.clang-format https://raw.githubusercontent.com/Davphla/clang-format-epitech/refs/heads/main/.clang-format
+curl -o ~/.clang-format https://raw.githubusercontent.com/Davphla/clang-format-epitech/refs/heads/main/.clang-format
 ```
 ## Usage
 
